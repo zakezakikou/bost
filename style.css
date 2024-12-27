@@ -1,0 +1,120 @@
+
+.photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+}
+.se1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(168, 238, 238);
+  padding: 20px;
+}
+.zone1 {
+  z-index: 1;
+  display: none;
+  flex-direction: column;
+  list-style-type: none;
+}
+.nav-item:hover .zone1 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(24, 111, 224);
+  width: 100px;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  color: rgb(180, 36, 36);
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 550px;
+}
+.photo2 {
+  width: 100%;
+  height: 550px;
+}
+.card-img-top{
+padding: 10px;
+}
+.menu{
+    padding: 30px;
+    
+    background-color: rgb(168, 238, 238);
+}
+.titre{
+    width: 100px;
+    justify-content: space-between;
+    align-items: center; margin-left: 560px;
+    padding: 10px;
+   
+}
+.container{
+   margin-bottom: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container2{
+  padding: 15px;
+  background-color: rgb(168, 238, 238);
+}
+.parag{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.contact{
+    background-color: rgb(168, 238, 238);
+    padding: 30px;
+    border: 2px solid rgb(181, 199, 231);
+   
+}
+.ter{
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(7, 109, 109);
+  margin-left: 500px;
+}
+footer > p {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: antiquewhite;
+}
+.foot{
+  background-color: black;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 50px 40px;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+}
+iframe {
+  border-radius: 5px;
+  /* margin: auto; */
+  height: 100%;
+}
+.map-container {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 2px;
+}
+.média {
+  text-align: center;
+}
+.média > a {
+  padding-left: 20px;
+}
